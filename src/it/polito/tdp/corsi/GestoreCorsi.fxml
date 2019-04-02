@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="it.polito.tdp.corsi.GestoreCorsiController">
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.corsi.GestoreCorsiController">
    <center>
       <TextArea fx:id="txtResult" prefHeight="200.0" prefWidth="330.0" BorderPane.alignment="CENTER" />
    </center>
@@ -48,6 +47,8 @@
                         <Insets left="50.0" />
                      </HBox.margin>
                   </Button>
+                  <Button fx:id="BtnStudenteCorso" mnemonicParsing="false" onAction="#DoStudenteCorso" text="Studente corso" />
+                  <Button fx:id="BtnCDS" mnemonicParsing="false" onAction="#DoBtnCDS" text="CDS" />
                </children>
             </HBox>
          </children>
